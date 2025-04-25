@@ -13,7 +13,7 @@ func GetTasks(c *fiber.Ctx) error {
 	rows, err := pool.Query(ctx, "SELECT id, title, description, status, created_at, updated_at FROM tasks")
 
 	if err != nil {
-		return c.Status(500).SendString("Ошибка выполнения запроса к базе данных")
+		return c.Status(500).SendString("Ошибка выполнения запроса к БД")
 	}
 	defer rows.Close()
 
@@ -38,7 +38,7 @@ func CreateTask(c *fiber.Ctx) error {
 	_, err := pool.Exec(ctx, "INSERT INTO tasks (title, description) VALUES ($1, $2)",
 		task.Title, task.Description)
 	if err != nil {
-		return c.Status(500).SendString("Ошибка вставки задания в базу")
+		return c.Status(500).SendString("Ошибка вставки задания в БД")
 	}
 
 	return c.Status(201).SendString("Задание успешно создано")
@@ -63,7 +63,7 @@ func UpdateTask(c *fiber.Ctx) error {
 		return c.Status(500).SendString("Ошибка обновления задания")
 	}
 
-	return c.SendString("Задание успешно удалено")
+	return c.SendString("Задание успешно обновлено")
 }
 
 func DeleteTask(c *fiber.Ctx) error {

@@ -11,17 +11,15 @@ func Conn_to_DB() error {
 	var err error
 	pool, err = pgxpool.New(ctx, "postgres://postgres:postgres@localhost:5432/my_DB")
 	if err != nil {
-		fmt.Println("Unable to connect to database:", err)
+		fmt.Println("Не удалось подключиться к базе данных:", err)
 		return err
 	}
-	//defer pool.Close()
 
-	// Verify the connection
 	if err := pool.Ping(ctx); err != nil {
-		fmt.Println("Unable to ping database:", err)
+		fmt.Println("Соединение с БД не активно:", err)
 		return err
 	}
 
-	fmt.Println("Connected to PostgreSQL database!")
+	fmt.Println("Подключение к PostgreSQL произошло успешно!")
 	return nil
 }

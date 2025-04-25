@@ -19,9 +19,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	// создаём новое приложение Fiber
 	app := fiber.New(fiber.Config{
-		Prefork: true, // используем предварительное форкование для увеличения производительности
+		Prefork: true,
 	})
 
 	app.Get("/tasks", GetTasks)
