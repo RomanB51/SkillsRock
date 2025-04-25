@@ -1,14 +1,10 @@
 package main
 
 import (
-	"context"
 	"fmt"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 )
-
-var pool *pgxpool.Pool
-var ctx = context.Background()
 
 func Conn_to_DB() error {
 
@@ -18,7 +14,7 @@ func Conn_to_DB() error {
 		fmt.Println("Unable to connect to database:", err)
 		return err
 	}
-	defer pool.Close()
+	//defer pool.Close()
 
 	// Verify the connection
 	if err := pool.Ping(ctx); err != nil {
