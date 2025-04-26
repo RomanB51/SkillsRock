@@ -10,7 +10,7 @@ REST API для управления задачами (TODO-лист)
  Данное API позволяет создавать задачи, читать список всех задач, обновлять задачи и удалять задачи. Список задач хранится в БД PostgreSQL. <!-- описание репозитория -->
 <!--Блок информации о репозитории в бейджах-->
 
-<img src="Image_for_SkillsRock/SkillsRock.jpg" alt="logo" width="200"/>
+<img src="https://github.com/RomanB51/Image_for_readme/blob/main/Image_for_SkillsRock/SkillsRock.jpg" alt="logo" width="200"/>
 
 <!--Установка-->
 ## Клонирование репозитория
