@@ -2,9 +2,8 @@
 REST API для управления задачами (TODO-лист)
 
 ![Static Badge](https://img.shields.io/badge/RomanB51-REST_API-7CFC00)
-![Static Badge](https://img.shields.io/badge/C++-17-blue)
-![Static Badge](https://img.shields.io/badge/CMake-3.16-red)
-![Static Badge](https://img.shields.io/badge/QT-6-D8BFD8)
+![Static Badge](https://img.shields.io/badge/Go-1.22.2-blue)
+![Static Badge](https://img.shields.io/badge/Fiber-V2-red)
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-16.6-CD853F)
 
  Данное API позволяет создавать задачи, читать список всех задач, обновлять задачи и удалять задачи. Список задач хранится в БД PostgreSQL. <!-- описание репозитория -->
@@ -28,4 +27,4 @@ REST API для управления задачами (TODO-лист)
 
 <!--зависимости-->
 ## Зависимости
-Эта программа зависит от версии фреймворка Qt версии 6 и выше.
+Данное ПО зависит от версии Golang 1.22.2 и фреймворка Fiber V2.
