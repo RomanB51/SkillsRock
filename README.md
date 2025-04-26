@@ -7,7 +7,7 @@ REST API для управления задачами (TODO-лист)
 ![Static Badge](https://img.shields.io/badge/QT-6-D8BFD8)
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-16.6-CD853F)
 
-Программное обеспечение для обработки текстовых документов <!-- описание репозитория -->
+ Данное API позволяет создавать задачи, читать список всех задач, обновлять задачи и удалять задачи. Список задач хранится в БД PostgreSQL. <!-- описание репозитория -->
 <!--Блок информации о репозитории в бейджах-->
 
 <img src="https://github.com/user-attachments/assets/5d1b8a7c-eb0e-4ca3-96d5-c36669ab7c1f" alt="logo" width="200"/>
