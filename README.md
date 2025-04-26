@@ -1,5 +1,6 @@
 # SkillsRock
 REST API для управления задачами (TODO-лист)
+
 ![Static Badge](https://img.shields.io/badge/RomanB51-REST_API-7CFC00)
 ![Static Badge](https://img.shields.io/badge/C++-17-blue)
 ![Static Badge](https://img.shields.io/badge/CMake-3.16-red)
