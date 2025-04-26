@@ -15,7 +15,7 @@ REST API для управления задачами (TODO-лист)
 <!--Установка-->
 ## Клонирование репозитория
 
-```git clone https://github.com/RomanB51/Project.git```
+```git clone https://github.com/RomanB51/SkillsRock.git```
 
 <!--Пользовательская документация-->
 ## Документация
