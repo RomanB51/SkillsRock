@@ -17,11 +17,12 @@
 различных запросов через Postman и результаты их выполнения:
 
 ## Запрос GET:
-*Запрос в Postman и результаты запроса*
+*Запрос в Postman и результаты запроса:*
+
 ![image](https://github.com/RomanB51/Image_for_readme/blob/main/Image_for_SkillsRock/Результат%20выполнения%20запроса%20GET%20Postman%20.png)
 
 
-*Данные в БД на момент запроса*
+*Данные в БД на момент запроса:*
 
 ![image](https://github.com/RomanB51/Image_for_readme/blob/main/Image_for_SkillsRock/Результат%20выполнения%20запроса%20GET%20PostgreSQL%20.png)
 
